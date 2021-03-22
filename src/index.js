@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom"; 
 
-import RenderEmployeeList from "./hooks/RenderEmployeeList";
+import ClassBasedComponent from "./classBased/ClassBasedComponent";
 
-ReactDOM.render(<RenderEmployeeList></RenderEmployeeList>, document.getElementsByTagName("div")[0]);
+ReactDOM.render(<ClassBasedComponent></ClassBasedComponent>, document.getElementsByTagName("div")[0]);
 
 
 
